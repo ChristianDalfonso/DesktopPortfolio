@@ -1,0 +1,13 @@
+.text-editor {
+  color: #bcbdbc;
+  border: none;
+  display: block;
+  background-color: #1e1e1eb0;
+  height: calc(100% - 25px);
+  resize: none;
+  width: 100%;
+}
+.text-editor:focus {
+  border: none;
+  outline: none;
+}

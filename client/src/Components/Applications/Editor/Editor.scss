@@ -1,0 +1,16 @@
+.container {
+  height: 100%;
+  background-color: #1e1e1e;
+}
+.editor-body {
+  overflow: hidden;
+  display: flex;
+  height: calc(100% - 20px);
+}
+.editor-right {
+  height: 100%;
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  overflow: hidden;
+}

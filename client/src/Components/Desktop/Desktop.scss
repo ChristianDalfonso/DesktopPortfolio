@@ -1,0 +1,31 @@
+.desktop {
+  // overflow: hidden;
+  // overflow: auto;
+  position: absolute;
+  background-image: url("https://512pixels.net/downloads/macos-wallpapers-thumbs/10-14-Night-Thumb.jpg");
+  background-repeat: none;
+  background-size: cover;
+  min-height: 100%;
+  width: 100%;
+  padding-top: 1.5em;
+}
+embed {
+  width: 450px;
+  height: 550px;
+  // height: auto;
+}
+
+.resume {
+  // height: 100%;
+  // width: 400px;
+  // height: 400px;
+  width: fit-content;
+  // height: 700px;
+}
+.desktop-app {
+  width: 400px;
+  height: auto;
+  // img {
+  //   width: 30%;
+  // }
+}

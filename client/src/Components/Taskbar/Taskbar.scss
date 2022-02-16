@@ -1,0 +1,44 @@
+.taskbar {
+  font-family: "Roboto", Sans-Serif;
+  font-size: 12px;
+  display: flex;
+  height: 25px;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1;
+  background: rgb(22, 22, 22);
+  background: radial-gradient(
+    circle,
+    rgba(22, 22, 22, 0.7931547619047619) 0%,
+    rgba(22, 22, 22, 0.6727065826330532) 50%,
+    rgba(22, 22, 22, 0.8603816526610644) 100%
+  );
+}
+
+.taskbar ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  user-select: none;
+  li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(235, 235, 235);
+    line-height: 20px;
+    padding: 0 0.5em;
+  }
+}
+
+.taskbar-icon {
+  -webkit-user-drag: none;
+  user-select: none;
+  -webkit-user-select: none;
+  width: 1.5em;
+  filter: invert(1);
+}
