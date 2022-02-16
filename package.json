@@ -1,7 +1,9 @@
 {
   "dependencies": {
     "express": "^4.17.2",
-    "nodejs": "^0.0.0"
+    "nodejs": "^0.0.0",
+    "react-draggable": "^4.4.4",
+    "react-rnd": "^10.3.5"
   },
   "name": "portfolio",
   "version": "1.0.0",
